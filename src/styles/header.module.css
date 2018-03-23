@@ -1,0 +1,26 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1em;
+  background-color: #75add6;
+
+  & a {
+    text-decoration: none;
+
+    & h2 {
+      color: #fff;
+      margin: 0;
+    }
+  }
+
+  & p {
+    color: #fff;
+    margin: 0;
+  }
+}
